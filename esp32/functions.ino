@@ -1,7 +1,7 @@
 // functions.ino
-#define sbit(PIN,N) (PIN |=  (1<<N))
-#define cbit(PIN,N) (PIN &= ~(1<<N))
-
+#define setbit(PIN, N) (PIN |=  (1<<N))
+#define clrbit(PIN, N) (PIN &= ~(1<<N))
+#define togglebit(PIN, N) (PIN ^= (1<<N))
 
 
 // C program to set, clear and toggle a bit 
