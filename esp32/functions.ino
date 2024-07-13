@@ -1,8 +1,10 @@
 // functions.ino
+#define sbit(PIN,N) (PIN |=  (1<<N))
+#define cbit(PIN,N) (PIN &= ~(1<<N))
+
 
 
 // C program to set, clear and toggle a bit 
-  
 #include <stdio.h> 
   
 // Function to set the kth bit of n 
