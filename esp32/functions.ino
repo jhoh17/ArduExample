@@ -1,7 +1,8 @@
 // functions.ino
-#define setbit(X, N) (X |=  (1<<N))
-#define clrbit(X, N) (X &= ~(1<<N))
-#define tglbit(X, N) (X ^= (1<<N))
+#define setbit(X, N)  (X |=  (1<<N))
+#define clrbit(X, N)  (X &= ~(1<<N))
+#define tglbit(X, N)  (X ^= (1<<N))
+#define getbit(X, N)  (X >> i)&1 
 
 
 
