@@ -1,11 +1,3 @@
-// functions.ino
-#define sbi(X, N)  (X |=  (1<<N))
-#define cbi(X, N)  (X &= ~(1<<N))
-#define tbi(X, N)  (X ^= (1<<N))
-#define gbi(X, N)  (X >> i)&1 
-
-
-
 
 // C program to set, clear and toggle a bit 
 #include <stdio.h> 
